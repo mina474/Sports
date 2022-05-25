@@ -70,7 +70,8 @@ div.base {
     
     }
 
-   
+   body#ri {
+   background-image: url(WallpaperDog-10862220.png); }
 
 .circle-container {
   position: relative;
@@ -213,7 +214,6 @@ h1.head{
 
 body#ri {
     
-     background-image: url(WallpaperDog-10862220.png);
      background-repeat:no-repeat;
      background-attachment: fixed; 
      background-size: cover;
