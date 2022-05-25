@@ -94,7 +94,7 @@ div.base {
       position: relative ;
       top: 80px;
       color: white;     
-      width: 400px;
+      width: 370px;
     
       height: auto;
     margin: auto;
@@ -104,7 +104,7 @@ div.base {
     font-size: 30px;}
 
     div .write{
-      padding: 20px;
+      padding: 12px;
     
     }
 
@@ -263,7 +263,7 @@ body#ri {
       position: relative ;
       top: 50px;
       color: white;     
-      width: 400px;
+      width: 370px;
       height: 600px;
       margin: auto;
       margin-top: auto;
