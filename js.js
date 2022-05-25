@@ -12,12 +12,11 @@
 		document.getElementById("pse").innerHTML="Must Srarts With Capital Letter";
                 return false;}
 
-    else if (p.length < 8) {
+   else if (p.length < 8||p.length > 8) {
     	document.getElementById("pse").style.display="block";
 		document.getElementById("pse").style.color="red";
-		document.getElementById("pse").innerHTML="Must be at least 8 characters";
+		document.getElementById("pse").innerHTML="Must be 8 characters";
                 return false;
-
     }
    
 
