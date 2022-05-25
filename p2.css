@@ -281,4 +281,9 @@ input[type=text],input[type=password],input[type=email],input[type=address],inpu
   width: 200px;
   background-color: white;
 }
+#pse ,#pe {
+  margin: 2px;
+  padding: 0px;
+  padding-left: 5px;
+}
 
