@@ -89,7 +89,7 @@ div.base {
 }
 
 }
-@media(max-width:500px ){
+@media(max-width:450px ){
 div.base {
       position: relative ;
       top: 80px;
