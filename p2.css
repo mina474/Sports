@@ -45,7 +45,9 @@ li a:hover:not(.active) {
 .active {
   background-color: white;
   color: black;
+  border-radius: 25px;
 }
+
 
 
 
@@ -244,14 +246,39 @@ background-position: center;
       display: block;
       margin: 60px ;
     }
-    input .submit{
-  color: black;
-  font-size: 16px;
-  padding: 16px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-    }
+   #submit{
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  box-shadow: white 120px;
+    font-size: 18px;
+    border-color: blue;
+    background-color: rgba(255, 255, 255, 0.6) ;
+    color: black;
 
+}
+
+
+#submit:hover{
+  border-radius: 15px;
+  height: 40px;
+  width: 150px;
+  box-shadow: white 120px;
+      font-size: 16px;
+      border-color: orange;
+      border-width: 3px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+
+
+}
+
+input[type=text],input[type=password],input[type=email],input[type=address],input[type=phone]{
+  color: black;
+  border-radius: 12px;
+  height: 25px;
+  width: 200px;
+  background-color: white;
+}
 
