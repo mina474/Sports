@@ -106,7 +106,8 @@ div.base {
     
     }
 body#ri {
-   background-image: url(WallpaperDog-108622220.png); }
+   background-image: url(WallpaperDog-108622220.png);
+background-position: center; }
 
     .circle-container {
   position: relative;
