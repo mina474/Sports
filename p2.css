@@ -257,4 +257,19 @@ body#ri {
   text-align: center;
     }
 
+@media(max-width:450px ){body#ri {
+    
+     div.baseri {
+      position: relative ;
+      top: 50px;
+      color: white;     
+      width: 400px;
+      height: 600px;
+      margin: auto;
+      margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.2);
 
+
+    }
+
+    }
