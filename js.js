@@ -35,7 +35,14 @@
                 return false;
 
     }
+	   
+   else if (p.split(" ")!=p) {
+      	document.getElementById("pse").style.display="block";
+		document.getElementById("pse").style.color="red";
+		document.getElementById("pse").innerHTML="No White spaces";
+                return false;
 
+    }
    else if (p.search(/[0-9]/) < 0) {
    	document.getElementById("pse").style.display="block";
 		document.getElementById("pse").style.color="red";
